@@ -1,0 +1,137 @@
+                                     .
+ ________.         ________          :__________            karl*    _____\___.
+_\       |________/       /_________ |        _/________\________   /     \\  |
+_\\      |       /      _/_\ _      \|       /     _     \       \ //      \\ |
+|\\      |     _//     ___/_\\     \ \      //     |     _\     \ \/ /     _\\|
+| \\     :      /      |      \     \     _//      :      \\     \  /|      \\_
+|__\\__________/_______________\____|\_____/_______________\_____|\/ |_______\
+ <:-\-------------------------------------/--------------------------:------:-
+  .                                                                  .      |
+  |     P r o u d l y   P r e s e n t s                                     |
+  |   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   |
+  |                                                                         |
+  |       Title : DOOM II (Classic) - Addons Pack 1 DLC                     |
+  |                                                                         |
+  |   Publisher : Bethesda Softworks          Platform : Nintendo Switch    |
+  |   Developer : id Software                   Origin : eShop              |
+  |       Genre : Action / First-Person       Title ID : 0100D4F00DD02000   |
+  :        Date : January 2020                  Format : 01x50MB / Other    |
+  .__                                                                     //|
+  | /---------------------------------------------------------------------/_:
+  |//                                                                       .
+  |     R e l e a s e   N o t e s                                           |
+  |   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   |
+  |                                                                         |
+  |   Celebrate DOOM's 25th anniversary with the re-release of DOOM II.     |
+  |   This beloved sequel to the groundbreaking DOOM (1993) gave players    |
+  |   the brutal Super Shotgun to bear against deadlier demons, and the     |
+  |   infamous boss, the Icon of Sin.                                       |
+  |                                                                         |
+  |   Battle the demon hordes at home or on-the-go on Nintendo Switch.      |
+  |                                                                         |
+  |   The re-release of DOOM II includes:                                   |
+  |                                                                         |
+  |   To save Earth, you must descend into the depths of hell, survive      |
+  |   demon hordes, and take part in the fiercest battle ever.              |
+  |                                                                         |
+  |   * The Master Levels, 20 additional levels made by the community and   |
+  |     supervised by the developers                                        |
+  |                                                                         |
+  |   * Local 4 player multiplayer                                          |
+  |                                                                         |
+  |   * Local 4 player co-op                                                |
+  |                                                                         |
+  |   Release Notes:                                                        |
+  |                                                                         |
+  |   Install this DLC to enable all officially released Add-ons for DOOM   |
+  |   II (Classic). This includes:                                          |
+  |                                                                         |
+  |   - No Rest For the Living (exclusive to Doom II)                       |
+  |                                                                         |
+  |   - TNT: Evilution                                                      |
+  |                                                                         |
+  |   - The Plutonia Experiment (Final DOOM)                                |
+  |                                                                         |
+  |   - As a bonus, we included the "John Romero's SIGIL" mod. Bethesda     |
+  |   only made it available for DOOM 1 for some reason but it still        |
+  |   works with DOOM II so we thought why not? If there are more           |
+  |   official addons to come, we will make sure to release them in the     |
+  |   future (thus the "Pack 1" title).                                     |
+  |                                                                         |
+  |   And yes, this also means you can add your own favorite WAD to Doom    |
+  |   2, but have in mind some mods only work with Doom 1 and some only     |
+  |   Doom 2 (which is probably the reason why Bethesda didn't include      |
+  |   the same mods for both games).                                        |
+  |                                                                         |
+  |   Install notes:                                                        |
+  |                                                                         |
+  |   This release isn't your typical DLC that just needs a NSP             |
+  |   installation. Every Add-Ons are stored in a cache partition (not a    |
+  |   DLC nor a save).                                                      |
+  |                                                                         |
+  |   You will 1/ need to extract our release to the root of your SD card   |
+  |   (so you will end up with a NintendoSDK folder).                       |
+  |                                                                         |
+  |   2/ Install DevMenu 6 if you don't have it already (comes with our     |
+  |   release).                                                             |
+  |                                                                         |
+  |   3/ Launch DevMenu, go to the "Save Data" tab.                         |
+  |                                                                         |
+  |   4/ Change "User" to "Backup in SD Card".                              |
+  |                                                                         |
+  |   5/ Then import whichever/all 4 caches/mods you want to either         |
+  |   System Memory (eMMC) or SD Card.                                      |
+  |                                                                         |
+  |   6/ Boot up the game, select "Add-ons" and you will find the mods in   |
+  |   the "Installed" tab, where you can enable them.                       |
+  |                                                                         |
+  |   7/ Profit.                                                            |
+  |                                                                         |
+  |   Optional notes, how to create your own mods:                          |
+  |                                                                         |
+  |   1/ Duplicate one of the add-on folder (for example                    |
+  |   20200101000003_0100D4F00DD02000 for Doom II).                         |
+  |                                                                         |
+  |   2/ In cache/0100D4F00DD02000/0001/ put your WAD file and rename it    |
+  |   to whatever number/character you wanna use (1 to 5 are already used   |
+  |   by current mods so let's say you start with "6" or "a"). If you       |
+  |   name it 6.wad, then you will have to edit "metadata" at offset        |
+  |   0x126 and put "6" in ASCII (instead of 5 if it was 5.wad). Also at    |
+  |   offset 0x1712 if it says "doom1" then put "doom2" in ascii. There     |
+  |   are more stuff you can edit in there, it's just a standard Unity      |
+  |   asset (hint), so you can put your custom description or your custom   |
+  |   jpg to your own preference.                                           |
+  |                                                                         |
+  |   3/ Edit __BackupSaveDataInfo.xml, and change all 3 fields             |
+  |   SaveDataSize, AvailableSize, JournalSize to whatever size is the      |
+  |   addon (=0001 folder). It doesn't need to perfectly match, it just     |
+  |   needs to be bigger than the addon (sure you could set it to 300 MB    |
+  |   but then you will have a 300MB file to your NSW eMMC/SD Card          |
+  |   instead of whatever small size it is). Also edit the CacheIndex       |
+  |   value to something > 4. Max is 99, you cannot have more than 99       |
+  |   addons.                                                               |
+  |                                                                         |
+  |   Also values are in hex so make sure you convert decimal to hex (e.g   |
+  |   = 7MB = 7 000 000 bytes = 00000000006ACFC0 in hex).                   |
+  |                                                                         |
+  |   To delete mods:                                                       |
+  |                                                                         |
+  |   Either delete the game and reinstall it, or in DevMenu, in the Save   |
+  |   Data tab, find DOOM II, press "+", "Manage", and here you can find    |
+  |   every Cache partition (= addons/mods) you can delete.                 |
+  :                                                                         |
+  .__                                                                     //|
+  | /---------------------------------------------------------------------/_:
+  |//                                                                       .
+  |     G r e e t i n g s                                                   |
+  |   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   |
+  |                                                                         |
+  |            Abstrakt . Anthrox . Capital . Caravan . Complex             |
+  |    Dual Crew Shining . Duplex . Echelon . Eurasia . Kalisto . Legacy    |
+  |    Lightforce . Menace . Miracle . Mode 7 . Money . Mystic . Napalm     |
+  |    Nightfall . Oldskool . Paradox . Premiere . Project X . Protocol     |
+  |      Quartex . Quasar . Rising Sun . Scoopex . Sneakers . Triforce      |
+  |                                                                         |
+ -:-------------------------------------------------------------------------:>
+  |                                                                         |
+  .                 VENOM - HELL it was about time! Since 2001.             .
